@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1471627071158008}
+  m_IsPrefabAsset: 1
+--- !u!1 &1471627071158008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4463069585398834}
+  - component: {fileID: 114880316390480596}
+  m_Layer: 0
+  m_Name: References
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4463069585398834
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471627071158008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114880316390480596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471627071158008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75627d193b0f84fde885f7b3abb930c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  common:
+  - {fileID: 11400000, guid: 146ed9a84cc9b4bcfafca72f16190cc4, type: 2}
+  - {fileID: 11400000, guid: 5b88214ddf12845609d1315460eb3fff, type: 2}
+  - {fileID: 11400000, guid: 6313b704c5459419ebaec2b7e517283b, type: 2}
+  commonPrefabs:
+  - {fileID: 1547277400129504, guid: 254137abcf4d24451a1472ad54c17231, type: 2}
+  - {fileID: 1547277400129504, guid: 722e9ce7bf1f44683913abafe38d7833, type: 2}
+  - {fileID: 1514839139943334, guid: 63f01eb52598c46eea2b99bc5fa271ce, type: 2}
+  playerAvatarPrefabs:
+  - {fileID: 1830805591286564, guid: c67c38983337644ac92c3e1fcca9c6ec, type: 2}
+  - {fileID: 1830805591286564, guid: 01bef0327c38f4d8ba770fe2673ec9c7, type: 2}
+  - {fileID: 1830805591286564, guid: 7f7ce2f5dc7ba4568af73959dfeaaaea, type: 2}
+  - {fileID: 1830805591286564, guid: 417d0058900204e8abcc6b9fc90dc282, type: 2}
+  - {fileID: 1830805591286564, guid: c87ac7f07c4b9430891aa8dab9923fe0, type: 2}
+  - {fileID: 1830805591286564, guid: 1ba3fe242b2bf4d5b9b801071b51d060, type: 2}
+  - {fileID: 1830805591286564, guid: 2cb21b9ee560840458de827de6648075, type: 2}
+  - {fileID: 1830805591286564, guid: 09284dde7f10c4b64905fff4f4c607f0, type: 2}
+  - {fileID: 1830805591286564, guid: a78e01dd78bac4f0b82a690ba3d6f121, type: 2}
+  - {fileID: 1830805591286564, guid: bbfee97c4ce5649e1860ca758d9900ba, type: 2}
+  - {fileID: 1830805591286564, guid: afde00c6fcda14ee9b3325e80c23d7c2, type: 2}
+  - {fileID: 1830805591286564, guid: 621a44ca64a044008befabc736c5dccb, type: 2}
+  - {fileID: 1830805591286564, guid: 0809216308791403f892ecd25f1e6850, type: 2}
+  - {fileID: 1830805591286564, guid: 820237dc5a5a7411daac7599255d1e30, type: 2}
+  - {fileID: 1830805591286564, guid: 4183cec518a8540768008c379e371d05, type: 2}
+  - {fileID: 1830805591286564, guid: fd03fdde864144ac082d4b5fc74712e0, type: 2}
+  - {fileID: 1830805591286564, guid: 5829535c46afd406ab015733c09ed329, type: 2}
+  - {fileID: 1830805591286564, guid: 93ce12775b1224631b925dde6524cba4, type: 2}
+  - {fileID: 1830805591286564, guid: c2c4f71fd8c6c42a5ad87ad2dcc304e9, type: 2}
+  - {fileID: 1830805591286564, guid: a597061df0e314bc2a2d93d17cd0d592, type: 2}
+  - {fileID: 1830805591286564, guid: 0c2835e0f07714a268312bc10cdb9184, type: 2}
+  - {fileID: 1830805591286564, guid: b012f6b0eb4564009b4d2d0f10540d85, type: 2}
+  - {fileID: 1830805591286564, guid: 04c63843c51464ae98503478f7caaa8c, type: 2}
+  - {fileID: 1830805591286564, guid: 7533c0ee91c6e494eaec2ef6eb740661, type: 2}
+  - {fileID: 1830805591286564, guid: a612f8d1fdd594a309e1594c9a3eb84f, type: 2}
+  - {fileID: 1830805591286564, guid: 5a7d03a908d09404aa6f4bdfbaae7774, type: 2}
+  m_NPCPrefabs:
+  - {fileID: 1439130842603552, guid: 4499ed62b9b9844d4bef23a0f9e964ba, type: 2}
+  - {fileID: 1439130842603552, guid: 62a552c0916214e33a1f210547e783b7, type: 2}
+  - {fileID: 1475999730155478, guid: 03aee7f8575814eaebebffccdb8d2242, type: 2}
+  - {fileID: 1784425967863598, guid: 6893fce3de6b24f71beb415bb6c86e2c, type: 2}
+  - {fileID: 1784425967863598, guid: bb808c49faead4157b1ea3361f683b15, type: 2}
+  - {fileID: 1502038442689780, guid: d8942171d53194d5bacf37f6dfe0f563, type: 2}
+  m_NPCRagdolls:
+  - {fileID: 1696875779189500, guid: deb688309d55e40b5b9c3c121ce8d350, type: 2}
+  - {fileID: 1696875779189500, guid: 84f9e69d93c904d0490ff3510b4f2423, type: 2}
+  - {fileID: 1685390442838784, guid: e627788203d4840ebaa76dbe0daef0a5, type: 2}
+  - {fileID: 1787398507364202, guid: 48f743346a6cd4ee88863ca16d333e63, type: 2}
+  - {fileID: 1787398507364202, guid: 68c665fcc7cd14f3c958025451136d2c, type: 2}
+  - {fileID: 1243079592212728, guid: 3f6d5088c70b047049c67d2fa4181606, type: 2}
+  playerAvatarRagdollPrefabs:
+  - {fileID: 1859043039119366, guid: 4a903737f4f5e4d0db39717c47794e96, type: 2}
+  - {fileID: 1859043039119366, guid: 2d80fc04885fd4d858c6be0e013305ca, type: 2}
+  - {fileID: 1859043039119366, guid: a6c3c2154c9584ebb89c666caa5c381a, type: 2}
+  - {fileID: 1859043039119366, guid: 2fa25a371676f4cb6bc3f5035a250a03, type: 2}
+  - {fileID: 1859043039119366, guid: ff79b1ea70da6459b99dd7005007c8a0, type: 2}
+  - {fileID: 1859043039119366, guid: 4cf65813d57d742d6b5a176418817bc9, type: 2}
+  - {fileID: 1859043039119366, guid: 68fa07720ba5c4c91ab55b4e8c33d21d, type: 2}
+  - {fileID: 1859043039119366, guid: d10fcf55bc85545ab8e5b1d955b2542e, type: 2}
+  - {fileID: 1859043039119366, guid: b702eed25add24806920980366a8c404, type: 2}
+  - {fileID: 1859043039119366, guid: 5eacdde8fde5c4953b481eff3a07da6b, type: 2}
+  - {fileID: 1859043039119366, guid: 9f473b756a06844d4a3b906a184a6a2b, type: 2}
+  - {fileID: 1859043039119366, guid: 75573d6e0c7524b3e97802e181944c7b, type: 2}
+  - {fileID: 1859043039119366, guid: a629faccef7d5451ba9502524345cbf5, type: 2}
+  - {fileID: 1859043039119366, guid: 7286828fe9b2b4c48b05c92d0b29a4b8, type: 2}
+  - {fileID: 1859043039119366, guid: 29735299d98dd4e159e0072d6e03ffb5, type: 2}
+  - {fileID: 1859043039119366, guid: 01d7326d6ce59497db1693890e0ce1fc, type: 2}
+  - {fileID: 1859043039119366, guid: baa81eed67aab4ccb9ed3d9dabbe4c41, type: 2}
+  - {fileID: 1859043039119366, guid: 5883103f6d4004ac68f051d6362a9924, type: 2}
+  - {fileID: 1859043039119366, guid: 43161c7711a2e4712b3ad14aec901f71, type: 2}
+  - {fileID: 1859043039119366, guid: 166501916e99f4ef686d2d8b6319c2bc, type: 2}
+  - {fileID: 1859043039119366, guid: 0453f40262d8b49219b31cad67a7767f, type: 2}
+  - {fileID: 1859043039119366, guid: 7408b8054e8ed4cf094c7e344bbbd209, type: 2}
+  - {fileID: 1859043039119366, guid: 8a97b2fb5ef1a43079e25e3dd53d22ba, type: 2}
+  - {fileID: 1859043039119366, guid: 9ff942afd148147f18f028f27438e03d, type: 2}
+  - {fileID: 1859043039119366, guid: 9bd26e2c74cb44560b41b952a688f0b0, type: 2}
+  - {fileID: 1859043039119366, guid: 55f84983b80ce46998084367ab6b82ed, type: 2}
+  m_DestructibleProps:
+  - {fileID: 1309753350588548, guid: 21754a1f9a3484d1d8a4eea99127233d, type: 2}
+  - {fileID: 1946091904126988, guid: dd750480b4dd145f781b4dd681a4dd9e, type: 2}
+  - {fileID: 1765169363768608, guid: 57d007325831f4cdd8d2abe51c41431a, type: 2}
+  - {fileID: 1943134552186022, guid: 3a59e7b6610884d95a21ed21c93eab1e, type: 2}
+  - {fileID: 1936599041247794, guid: 399f19af415d74a1a99d27327f4d4b2d, type: 2}
+  m_PropsPrefabs:
+  - {fileID: 1772617323294504, guid: f61bb3540929d40b89ba5dc30904613b, type: 2}
+  - {fileID: 1836598250942430, guid: 1262c6f020c354b35a98edc6503f0702, type: 2}
+  - {fileID: 1109968838482012, guid: 724ebf71dddfa489cb30642f34739538, type: 2}
+  - {fileID: 1798506444249960, guid: b77e38e6f64614c29ac9f7e37c435f22, type: 2}
+  - {fileID: 1596797340871222, guid: a09eaa4b873a647ff95ea7acb963cb6a, type: 2}
+  - {fileID: 1445162632068432, guid: b1439952ef1e8418e9141102b8de63bb, type: 2}
+  - {fileID: 1005115655985968, guid: 28ac56073f7e749e49fc5fffd1f33ce0, type: 2}
+  - {fileID: 1936175685265620, guid: 97e12733c57cd40fdaffcdf4ce706416, type: 2}
+  - {fileID: 1609805851908128, guid: af1cbcbd4d05e4fafa04d130094d9f6d, type: 2}
+  - {fileID: 1944322002518920, guid: a06ed651401f24de694504f400ba4d1c, type: 2}
+  - {fileID: 1048454507214544, guid: 2bc964efe3df842d097550c22fbd8cec, type: 2}
+  - {fileID: 1673209116173254, guid: 325d74050b8e24e5a9d31ff2c8bfc905, type: 2}
+  - {fileID: 1896481263684868, guid: 22f56ab85585c4532aedf02d413ca28f, type: 2}
+  - {fileID: 1731773242634326, guid: 89ad985186ad34a8086d7c46d96301d4, type: 2}
+  - {fileID: 1481922828639970, guid: 1c7cd4881a4a5417e8cb105308f53b92, type: 2}
+  - {fileID: 1628216427242220, guid: 0381a6b2d125b4748843b3e8bd60073c, type: 2}
+  m_HurdlesPrefabs:
+  - {fileID: 1327716896213048, guid: 3e299ef67548e49809bd61e2da19a73a, type: 2}
+  - {fileID: 1424025237915548, guid: b80c6887057c94f06afe9ab963031fdf, type: 2}
+  - {fileID: 1054273056049374, guid: 7a7ecefe08314493d9391bc4fa936ed8, type: 2}
+  - {fileID: 1621858306805226, guid: 80fb56f55e85846d4b8b2ad99dc4d00e, type: 2}
+  - {fileID: 1980112095630364, guid: d4374c9b7ad9447d4a097382b8dbbbbf, type: 2}
+  - {fileID: 1169783146437828, guid: c48c38da4af8740a683db39fc909751b, type: 2}
+  - {fileID: 1048142312472960, guid: f5ead18a44cbd432ca4f804f65bfc41f, type: 2}
+  - {fileID: 1080182000005940, guid: a5644ced844dc46e8ae1fa546435c76a, type: 2}
+  - {fileID: 1880403616404928, guid: fdcb36e390deb413191955789fdaada1, type: 2}
+  - {fileID: 1766228997651086, guid: 43df97fb4e5c749d1bd4c58502137f9a, type: 2}
+  - {fileID: 1027851156900446, guid: 39df2df355076418ea9ea76ae7435ef5, type: 2}
+  - {fileID: 1803426244956412, guid: 4adaf93e8ad8748a9bbc7aac1234cd26, type: 2}
+  m_MatadorRagdolls:
+  - {fileID: 1243079592212728, guid: b0780a9ef07f945038392abac433af5d, type: 2}
+  m_RaceRefereePrefabs:
+  - {fileID: 1070493825583126, guid: efbdf68c74c714931995366c87c3b6b1, type: 2}
+  - {fileID: 1070493825583126, guid: 5db18a7f1c4134681a365055ca97fb24, type: 2}
+  m_RaceRefereeRagdolls:
+  - {fileID: 1614013906706604, guid: 77c970323250c4993a87d1e4cdbbae93, type: 2}
+  - {fileID: 1614013906706604, guid: 92439d4e89af844618d202d6988544d9, type: 2}

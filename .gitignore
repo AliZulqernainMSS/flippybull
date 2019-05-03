@@ -1,0 +1,47 @@
+# System files
+Thumbs.db
+Thumbs.db.meta
+*.DS_Store
+*.directory
+.vs
+.vscode
+
+# Build files
+*.apk
+*.obb
+
+# Visual Studio files
+*.cachefile
+*.csproj
+*.pidb
+*.sln
+*.suo
+*.unityproj
+*.user
+*.userprefs
+*.v11
+*.v12
+
+# Folder to exclude
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Builds/
+ipch/
+Library/
+obj/
+bin/
+Temp/
+UWP/
+WindowsStore/
+WS/
+UnityVS/
+UnityVS.meta
+AdjustPostBuild*
+Assets/FacebookSDK/Plugins/Facebook.Unity.sln.meta
+Assets/FacebookSDK/Plugins/Facebook.Unity.userprefs.meta
+IdleFarmTycoon/Assets/IdleTycoon/HelperScripts.meta
+IdleFarmTycoon/Assets/IdleTycoon/HelperScripts*
+Notification Icon Helper*
+UnitTesting*
+.mfractor

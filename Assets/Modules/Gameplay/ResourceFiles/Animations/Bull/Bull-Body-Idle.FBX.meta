@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 9ad1e917e30184c8d871a448e4deaa29
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bull
+    100002: //RootNode
+    100004: CATRig1Bone001
+    100006: CATRigLLeg-Front
+    100008: CATRigLLeg2
+    100010: CATRigLLeg2 1
+    100012: CATRigLLeg3
+    100014: CATRigLLegAnkle
+    100016: CATRigLLegAnkle 1
+    100018: CATRigLLegCollarbone
+    100020: CATRigLLegL
+    100022: CATRigLLegPlatform
+    100024: CATRigLLegPlatform 1
+    100026: CATRigPelvis001
+    100028: CATRigPelvis002
+    100030: CATRigRLeg-Front
+    100032: CATRigRLeg2
+    100034: CATRigRLeg2 1
+    100036: CATRigRLeg3
+    100038: CATRigRLegAnkle
+    100040: CATRigRLegAnkle 1
+    100042: CATRigRLegCollarbone
+    100044: CATRigRLegPlatform
+    100046: CATRigRLegPlatform 1
+    100048: CATRigRLegR
+    100050: CATRigSpine1
+    100052: CATRigSpine2
+    100054: CATRigTail1
+    100056: CATRigTail1 1
+    100058: CATRigTail2
+    100060: CATRigTail3
+    100062: Character001
+    100064: Cylinder001
+    100066: Line001
+    400000: Bull
+    400002: //RootNode
+    400004: CATRig1Bone001
+    400006: CATRigLLeg-Front
+    400008: CATRigLLeg2
+    400010: CATRigLLeg2 1
+    400012: CATRigLLeg3
+    400014: CATRigLLegAnkle
+    400016: CATRigLLegAnkle 1
+    400018: CATRigLLegCollarbone
+    400020: CATRigLLegL
+    400022: CATRigLLegPlatform
+    400024: CATRigLLegPlatform 1
+    400026: CATRigPelvis001
+    400028: CATRigPelvis002
+    400030: CATRigRLeg-Front
+    400032: CATRigRLeg2
+    400034: CATRigRLeg2 1
+    400036: CATRigRLeg3
+    400038: CATRigRLegAnkle
+    400040: CATRigRLegAnkle 1
+    400042: CATRigRLegCollarbone
+    400044: CATRigRLegPlatform
+    400046: CATRigRLegPlatform 1
+    400048: CATRigRLegR
+    400050: CATRigSpine1
+    400052: CATRigSpine2
+    400054: CATRigTail1
+    400056: CATRigTail1 1
+    400058: CATRigTail2
+    400060: CATRigTail3
+    400062: Character001
+    400064: Cylinder001
+    400066: Line001
+    2100000: 02 - Default
+    2100002: default
+    2100004: No Name
+    2300000: CATRig1Bone001
+    2300002: CATRigLLeg-Front
+    2300004: CATRigLLeg2
+    2300006: CATRigLLeg2 1
+    2300008: CATRigLLeg3
+    2300010: CATRigLLegAnkle
+    2300012: CATRigLLegAnkle 1
+    2300014: CATRigLLegCollarbone
+    2300016: CATRigLLegL
+    2300018: CATRigPelvis001
+    2300020: CATRigPelvis002
+    2300022: CATRigRLeg-Front
+    2300024: CATRigRLeg2
+    2300026: CATRigRLeg2 1
+    2300028: CATRigRLeg3
+    2300030: CATRigRLegAnkle
+    2300032: CATRigRLegAnkle 1
+    2300034: CATRigRLegCollarbone
+    2300036: CATRigRLegR
+    2300038: CATRigSpine1
+    2300040: CATRigSpine2
+    2300042: CATRigTail1
+    2300044: CATRigTail1 1
+    2300046: CATRigTail2
+    2300048: CATRigTail3
+    2300050: Cylinder001
+    3300000: CATRig1Bone001
+    3300002: CATRigLLeg-Front
+    3300004: CATRigLLeg2
+    3300006: CATRigLLeg2 1
+    3300008: CATRigLLeg3
+    3300010: CATRigLLegAnkle
+    3300012: CATRigLLegAnkle 1
+    3300014: CATRigLLegCollarbone
+    3300016: CATRigLLegL
+    3300018: CATRigPelvis001
+    3300020: CATRigPelvis002
+    3300022: CATRigRLeg-Front
+    3300024: CATRigRLeg2
+    3300026: CATRigRLeg2 1
+    3300028: CATRigRLeg3
+    3300030: CATRigRLegAnkle
+    3300032: CATRigRLegAnkle 1
+    3300034: CATRigRLegCollarbone
+    3300036: CATRigRLegR
+    3300038: CATRigSpine1
+    3300040: CATRigSpine2
+    3300042: CATRigTail1
+    3300044: CATRigTail1 1
+    3300046: CATRigTail2
+    3300048: CATRigTail3
+    3300050: Cylinder001
+    4300000: Bull
+    4300002: Cylinder001
+    4300004: CATRigPelvis001
+    4300006: CATRigLLegL
+    4300008: CATRigLLeg2
+    4300010: CATRigLLeg3
+    4300012: CATRigLLegAnkle
+    4300014: CATRigRLegR
+    4300016: CATRigRLeg2
+    4300018: CATRigRLeg3
+    4300020: CATRigRLegAnkle
+    4300022: CATRigSpine1
+    4300024: CATRigSpine2
+    4300026: CATRigPelvis002
+    4300028: CATRigLLegCollarbone
+    4300030: CATRigLLeg-Front
+    4300032: CATRigLLeg2
+    4300034: CATRigLLegAnkle
+    4300036: CATRigTail1
+    4300038: CATRig1Bone001
+    4300040: CATRigRLegCollarbone
+    4300042: CATRigRLeg-Front
+    4300044: CATRigRLeg2
+    4300046: CATRigRLegAnkle
+    4300048: CATRigTail1
+    4300050: CATRigTail2
+    4300052: CATRigTail3
+    7400000: Idle
+    9500000: //RootNode
+    13700000: Bull
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

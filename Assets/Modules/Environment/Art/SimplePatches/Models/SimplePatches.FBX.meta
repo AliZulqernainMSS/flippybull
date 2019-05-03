@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 2530c26bfb3a34e93be902dbcd2ed586
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Plane-45Deg
+    100002: Plane-Des02
+    100004: Plane-Simple_02
+    100006: Road45Deg
+    100008: RoadDes01
+    100010: RoadSimple-02
+    100012: Simple-45Deg
+    100014: Simple-Straight
+    100016: Simple_20Deg
+    100018: //RootNode
+    100020: Stage
+    100022: Stage-45Deg
+    100024: Stage-Straight
+    100026: Audience-45Deg
+    100028: Audience-Straight
+    100030: Audience-Straight001
+    100032: Plane-Simple_003
+    100034: RoadSimple-003
+    100036: Simple-20Deg
+    100038: Stage-Straight001
+    100040: Audience-45Deg001
+    100042: Plane-45Deg001
+    100044: Road45Deg001
+    100046: Simple-45Deg001
+    100048: Stage-45Deg001
+    400000: Plane-45Deg
+    400002: Plane-Des02
+    400004: Plane-Simple_02
+    400006: Road45Deg
+    400008: RoadDes01
+    400010: RoadSimple-02
+    400012: Simple-45Deg
+    400014: Simple-Straight
+    400016: Simple_20Deg
+    400018: //RootNode
+    400020: Stage
+    400022: Stage-45Deg
+    400024: Stage-Straight
+    400026: Audience-45Deg
+    400028: Audience-Straight
+    400030: Audience-Straight001
+    400032: Plane-Simple_003
+    400034: RoadSimple-003
+    400036: Simple-20Deg
+    400038: Stage-Straight001
+    400040: Audience-45Deg001
+    400042: Plane-45Deg001
+    400044: Road45Deg001
+    400046: Simple-45Deg001
+    400048: Stage-45Deg001
+    2100000: MainColor
+    2100002: 'Material #10'
+    2100004: 'Material #4'
+    2100006: 02 - Default
+    2300000: Plane-45Deg
+    2300002: Plane-Des02
+    2300004: Plane-Simple_02
+    2300006: Road45Deg
+    2300008: RoadDes01
+    2300010: RoadSimple-02
+    2300012: Stage
+    2300014: Stage-45Deg
+    2300016: Stage-Straight
+    2300018: Audience-45Deg
+    2300020: Audience-Straight
+    2300022: Audience-Straight001
+    2300024: Plane-Simple_003
+    2300026: RoadSimple-003
+    2300028: Stage-Straight001
+    2300030: Audience-45Deg001
+    2300032: Plane-45Deg001
+    2300034: Road45Deg001
+    2300036: Stage-45Deg001
+    3300000: Plane-45Deg
+    3300002: Plane-Des02
+    3300004: Plane-Simple_02
+    3300006: Road45Deg
+    3300008: RoadDes01
+    3300010: RoadSimple-02
+    3300012: Stage
+    3300014: Stage-45Deg
+    3300016: Stage-Straight
+    3300018: Audience-45Deg
+    3300020: Audience-Straight
+    3300022: Audience-Straight001
+    3300024: Plane-Simple_003
+    3300026: RoadSimple-003
+    3300028: Stage-Straight001
+    3300030: Audience-45Deg001
+    3300032: Plane-45Deg001
+    3300034: Road45Deg001
+    3300036: Stage-45Deg001
+    4300000: Stage
+    4300002: RoadDes01
+    4300004: Plane-Des02
+    4300006: Road45Deg
+    4300008: Stage-45Deg
+    4300010: Plane-45Deg
+    4300012: Stage-Straight
+    4300014: RoadSimple-02
+    4300016: Plane-Simple_02
+    4300018: Audience-Straight
+    4300020: Audience-45Deg
+    4300022: Audience-Straight001
+    4300024: RoadSimple-003
+    4300026: Plane-Simple_003
+    4300028: Stage-Straight001
+    4300030: Audience-45Deg001
+    4300032: Road45Deg001
+    4300034: Stage-45Deg001
+    4300036: Plane-45Deg001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 80
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
