@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
 	private float m_HalfScreenWidth;
 	private float m_FlipOffset = 15f;
 	private int m_CurrentOffset = 0;
+	private float m_LastBackFlipTime = -1;
+	public Vector3 m_LastPosition;
 
 	private void Start() 
 	{
@@ -67,7 +69,13 @@ public class Player : MonoBehaviour
 
 	public void DoBackFlip()
 	{
-        transform.DOKill(true);
+		if ((Time.realtimeSinceStartup - m_LastBackFlipTime) < 1)
+		{
+			return;
+		}
+		m_LastBackFlipTime = Time.realtimeSinceStartup;
+		transform.DOKill(true);
+		m_LastPosition = transform.position;
 		m_Animator.PlayJumpAnimation();
         Vector3 position = transform.position;
         position.z -= m_FlipOffset;
@@ -77,6 +85,7 @@ public class Player : MonoBehaviour
 	public void DoFlip(int flip)
 	{
 		transform.DOKill(true);
+		m_LastPosition = transform.position;
 		m_Animator.PlayJumpAnimation();
         m_CurrentOffset += flip;
         Vector3 position = transform.position;
@@ -90,10 +99,11 @@ public class Player : MonoBehaviour
 		{
             if (Mathf.Abs(m_CurrentOffset) > 1)
 			{
-                m_CurrentOffset = (int)Mathf.Sign(m_CurrentOffset) * -1;
+				m_CurrentOffset = (int)Mathf.Sign(m_CurrentOffset) * -1;
                 position = transform.position;
                 position.x = m_CurrentOffset * m_FlipOffset;
-                transform.position = new Vector3(position.x + (m_CurrentOffset * m_FlipOffset), position.y, position.z);
+				transform.position = new Vector3(position.x + (m_CurrentOffset * m_FlipOffset), position.y, position.z);
+				m_LastPosition = transform.position;
 				transform.DOJump(position, m_JumpPower, 1, 1f / m_JumpSpeed).SetEase(Ease.Linear);
 			}
 			else
@@ -113,6 +123,10 @@ public class Player : MonoBehaviour
 
 	public void LevelComplete()
 	{
+		if (this.enabled == false) 
+		{
+			return;
+		}
 		this.enabled = false;
 		m_Animator.transform.localEulerAngles = Vector3.up * 180f;
 		Vector3 position = transform.position;

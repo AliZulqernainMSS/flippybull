@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class GameEnvironment : MonoBehaviour
 {
-    public Transform m_PatchesContainer;
+	public Transform m_PatchesContainer;
+    public Transform m_FinishLine;
     public Transform m_LastEndPoint;
     public EnvironmentPatch[] m_SimplePatchPrefabs;
 
@@ -21,27 +22,31 @@ public class GameEnvironment : MonoBehaviour
     }
 
     public void StartLevelGeneration()
-    {
-        StartCoroutine(GenerateLevelEnvironment());
+	{
+		GameStageModel CurrentStageModel = GameManager.Instance.Levels.CurrentStageModel;
+		StartCoroutine(GenerateLevelEnvironment(CurrentStageModel));
     }
 
-    private IEnumerator GenerateLevelEnvironment()
+	private IEnumerator GenerateLevelEnvironment(GameStageModel stageModel)
     {
-		GameStageModel CurrentStageModel = GameManager.Instance.Levels.CurrentStageModel;
         LoadPatches(m_EnvironmentType);
-        float levelLength = CurrentStageModel.m_LevelLength;
+		float levelLength = stageModel.m_LevelLength;
+		SetFinishUpLine (levelLength);
         levelLength -= CreateFirstPatch();
         while (levelLength > 0)
         {
-            levelLength -= CreatePatch(0);
+			levelLength -= CreatePatch(Random.Range(0, m_Patches.Length));
         }
 		yield return null;
 
-		CreatePatch(1);
         //Add Extra Patch at End
 		CreatePatch(0);
-
     }
+
+	public void SetFinishUpLine(float levelLength)
+	{
+		m_FinishLine.transform.position = Vector3.forward * levelLength;
+	}
 
     private void LoadPatches(EnvironmentType type)
     {

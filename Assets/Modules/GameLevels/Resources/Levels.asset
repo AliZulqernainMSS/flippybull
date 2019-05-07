@@ -14,4 +14,4 @@ MonoBehaviour:
   m_Levels:
   - m_LevelNumber: 1
     m_Stages:
-    - m_LevelLength: 100
+    - m_LevelLength: 600
