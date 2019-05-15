@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.unity.mediation.AppLovin">
+
+    <uses-sdk
+      android:minSdkVersion="14"
+      android:targetSdkVersion="26" />
+
+    <application>
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="GQ9W-_varDc36Q7hpqb_AX6dG9UqOVAewJ9uJ3T8G4CNUJ4H8fHJCNySXQGwwRZqlki2nAB2ENPkhU_q8G8Ke4" />
+
+        <activity
+            android:name="com.applovin.adview.AppLovinInterstitialActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name="com.applovin.adview.AppLovinConfirmationActivity"
+            android:configChanges="orientation|screenSize" />
+    </application>
+
+</manifest>
+

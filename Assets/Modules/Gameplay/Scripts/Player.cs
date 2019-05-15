@@ -36,21 +36,21 @@ public class Player : MonoBehaviour
 	
 	void Update () 
 	{
-#if UNITY_EDITOR
-		if(Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            DoFlip(1);
-		}
-		else if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            DoFlip(-1);
-		}
-		else if (Input.GetKeyDown(KeyCode.DownArrow))
-		{
-            DoBackFlip();
-		}
-#else
-		if(Input.GetMouseButtonDown(0))
+//#if UNITY_EDITOR
+//		if(Input.GetKeyDown(KeyCode.RightArrow))
+//        {
+//            DoFlip(1);
+//		}
+//		else if (Input.GetKeyDown(KeyCode.LeftArrow))
+//        {
+//            DoFlip(-1);
+//		}
+//		else if (Input.GetKeyDown(KeyCode.DownArrow))
+//		{
+//            DoBackFlip();
+//		}
+//#else
+		if(Input.GetMouseButton(0))
 		{
 			float x = Input.mousePosition.x;
 			if(x > m_HalfScreenWidth)
@@ -62,7 +62,7 @@ public class Player : MonoBehaviour
                 DoFlip(-1);
 			}
 		}
-#endif
+//#endif
     }
 
 	#region Movement
